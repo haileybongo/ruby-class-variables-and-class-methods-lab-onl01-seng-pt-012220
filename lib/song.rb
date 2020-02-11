@@ -9,7 +9,7 @@ class Song
     @name = name
     @genre = genre 
     @artist = artist
-    @@count = @@count + 1 
+    @@count += 1 
     @@genres << genre
     @@artists << artist 
   end
